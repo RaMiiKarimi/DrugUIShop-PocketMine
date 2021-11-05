@@ -1,0 +1,18 @@
+name: Drugs
+version: 2.0.0
+api: [3.0.0 , 4.0.0]
+author: RaMiiOffiCial
+main: Drugs\Main
+
+
+commands:
+  drugshop:
+    description: §2Kharid Mavad / §1By §9RaMiiOffiCial
+    permission: Drug.use
+    aliases:
+      - dg
+      - drug
+
+permissions:
+  Drug.use:
+    default: true
